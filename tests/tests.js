@@ -7,14 +7,12 @@ module.exports = {
       .waitForElementVisible('body')
       .assert.attributeEquals('section[class=main]', 'style', 'display: none;')
       .assert.attributeEquals('footer[class=footer]', 'style', 'display: none;')
-      .saveScreenshot('guinea-pig-test.png');
   },
 
   'Add new todo': function(browser) {
     browser
       .assert.attributeEquals('section[class=main]', 'style', 'display: none;')
       .assert.attributeEquals('footer[class=footer]', 'style', 'display: none;')
-      .saveScreenshot('guinea-pig-test.png')
       .end();
   }
 };
