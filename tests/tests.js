@@ -5,6 +5,7 @@ module.exports = {
     browser
       .url('https://vast-taiga-34449.herokuapp.com/index.html')
       .waitForElementVisible('body')
+      .assert.attributeEquals('input[class=new-todo]', 'autofocus', "true")
       .assert.attributeEquals('section[class=main]', 'style', 'display: none;')
       .assert.attributeEquals('footer[class=footer]', 'style', 'display: none;')
   },
