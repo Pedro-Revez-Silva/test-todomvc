@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="tests"
+    errors="0" failures="0" hostname="" id="" package="tests" skipped="0"
+    tests="2" time="2.054" timestamp="">
+  
+    <testcase name="#main and #footer should be hidden when there are no todos" classname="tests" time="1.734" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Add new todo" classname="tests" time="0.3200" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
