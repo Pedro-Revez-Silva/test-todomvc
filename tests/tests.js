@@ -46,7 +46,7 @@ module.exports = {
       .click('.todo-list li:nth-child(3) .toggle')
       .assert.cssClassPresent('.todo-list li:nth-child(3)', 'completed')
       .click('.clear-completed')
-      .pause();
+      .end();
   }
 
   // I was unable to test this. The input field is set as element not interactable. Even simulating a double click the setValue didn't work
