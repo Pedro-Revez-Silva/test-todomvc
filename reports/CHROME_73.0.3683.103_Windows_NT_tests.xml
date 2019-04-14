@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
-            tests="2">
+<testsuites errors="1"
+            failures="1"
+            tests="6">
 
   <testsuite name="tests"
-    errors="0" failures="0" hostname="" id="" package="tests" skipped="0"
-    tests="2" time="1.523" timestamp="">
+    errors="1" failures="1" hostname="" id="" package="tests" skipped="0"
+    tests="6" time="2.952" timestamp="">
   
-    <testcase name="#main and #footer should be hidden when there are no todos" classname="tests" time="1.461" assertions="4">
+    <testcase name="#main and #footer should be hidden when there are no todos" classname="tests" time="1.515" assertions="4">
 
     
 
@@ -18,11 +18,34 @@
     
     </testcase>
   
-    <testcase name="Add new todo" classname="tests" time="0.06200" assertions="2">
+    <testcase name="Add new todos" classname="tests" time="0.2110" assertions="3">
 
     
 
     
+
+    
+    </testcase>
+  
+    <testcase name="Show how many items are left to complete" classname="tests" time="0.02500" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Mark one as completed" classname="tests" time="0.06300" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Show how many items are left to complete after checking one as completed" classname="tests" time="0.02500" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Edit todo list item" classname="tests" time="1.113" assertions="1">  <failure message="Testing if element &lt;.todo-list li:nth-child(2) label&gt; contains text: &#34;Edited Task2&#34; in 1000 ms. - expected [0;32m&#34;Edited Task2&#34;[0m but got: [0;31m&#34;Task2&#34;[0m">    at Object.Edit todo list item (C:\Users\Pedro\Documents\Challenge\test-todomvc\tests\tests.js:46:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.Edit todo list item (C:\Users\Pedro\Documents\Challenge\test-todomvc\tests\tests.js:46:13)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   
 
